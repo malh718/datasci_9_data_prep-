@@ -58,12 +58,15 @@ Clean and tranform:
 
 
 <img width="491" alt="Screen Shot 2023-11-22 at 1 35 33 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/e375d4ae-2b72-4307-9123-693b9f046882">
+
 This drops the columnns that we do not need, and are not necessary. 
 
 
 <img width="441" alt="Screen Shot 2023-11-22 at 1 39 09 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/802d493e-9543-4aaf-9bb4-4a1595ae98b4">
+
 No missing values 
 
 
 <img width="315" alt="Screen Shot 2023-11-22 at 1 41 32 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/275f072d-072e-4942-bd89-52614e06bac5">
+
 Just double cheking that if there are any missing values they will be dropped. We know there arent any because I did .shape and got the same number of columns and rows we started off with. 
