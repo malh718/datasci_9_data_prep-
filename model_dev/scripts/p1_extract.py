@@ -9,9 +9,13 @@ datalink = 'https://data-lakecountyil.opendata.arcgis.com/datasets/lakecountyil:
 df = pd.read_csv(datalink)
 df.size
 df.sample(5)
+df.shape
 
+missing_values = df.isnull().sum()
+missing_values 
 
-
+df_clean=df.dropna()
+df_clean
 
 
 ## save as csv to WK9/code/model_dev/data/raw

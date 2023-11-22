@@ -4,10 +4,18 @@ from sklearn.preprocessing import OrdinalEncoder
 ## get data raw
 df = pd.read_pickle('model_dev/processed/raw/cancer_data.pkl')
 
-## get reporting_distrcts
+## get birth statisitcs (kept the name the same but it is about birth statistics)
 df_rpt_dist = pd.read_csv('model_dev/processed/raw/Birth_Statistics.csv')
 ## get column names
-df.columns
+df_rpt_dist.columns
+df_rpt_dist.shape
+
+missing_values2 = df_rpt_dist.isnull().sum()
+missing_values2 
+
+dfother_clean=df_rpt_dist.dropna()
+dfother_clean
+dfother_clean.shape
 
 ## do some data cleaning of colun names, 
 ## make them all lower case, replmove white spaces and rpelace with _ 
@@ -25,13 +33,20 @@ df.sample(5)
 
 ## drop columns
 to_drop = [
-    'fid',
+    'FID',
     'shape_area',
     'shape_length'
 ]
 
 df.drop(to_drop, axis=1, inplace=True, errors='ignore')
 
+to_drop = [
+    'FID',
+    'shape_area',
+    'shape_length'
+]
+
+df_rpt_dist.drop(to_drop, axis=1, inplace=True, errors='ignore')
 
 df.sample(5)
 
@@ -42,6 +57,8 @@ to_keep = [
     'rd',
     'name'
 ]
+
+
 df_rpt_dist = df_rpt_dist[to_keep]
 df_rpt_dist['rd'] = pd.to_numeric(df_rpt_dist['rd'], errors='coerce')
 df_rpt_dist.dropna(inplace=True)
@@ -63,16 +80,3 @@ df_mapping_date
 
 ## save mapping to csv
 df_mapping_date.to_csv('model_dev/PROCESSEDDATA/mapping_date.csv', index=False)
-
-
-## create dataframe with mapping
-df_mapping_area = pd.DataFrame(enc.categories_[0], columns=['area_name'])
-df_mapping_area['area_name_ordinal'] = df_mapping_area.index
-df_mapping_area.head(5)
-# save mapping to csv
-df_mapping_area.to_csv('WK9/code/model_dev/data/processed/mapping_area.csv', index=False)
-
-
-
-
-
