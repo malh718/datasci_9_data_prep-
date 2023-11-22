@@ -24,19 +24,28 @@ The ZIP is the zip codes present in Lake County, the Colorectal Cancer shows can
 
 This dataset also has 27 rows and 10 columns.
 
+Intended Machine Learning Task: Regression
+
+Machine Learning Regression is suitable in this dataset because the Dependent variables in this case which are  Lunc_bronc, Breast_can, Urinary_sy, Prostate_C, and All_cancer are all continuous. What this means is that the independent and dependent variables will be studied and using machine learning an algorithm can determine potential results or outcomes. In this case. Using the information that you are giving it, it can make predictions on what is to come. So in this case, we will try to determine the potential rates of cancer for the population present in Lake County, Illinois based on location and other information. 
+
+The indpendent variable in this case would be location.
+The dependent variables are Colorectal cancer rate, breast cancer rate, Lung cancer rate, prostate cancer rate, and all cancer rate.
 
 Brief Description of  Birth Statistics- Lake County, Illinois
 
 This dataset looks at birth rates in Lake County, Illinois.
+
 The columns include LBW which is low birth rate and if a baby is less than 2500 grams that indicates a LBW. This is represented as a percentage. Next there is preterm. This looks at the percent of births that happened before they reached 37 weeks pregnancy. Next is Teen Birth. This looks at the rate of women who gave birth at the ages of 15,16,17,18 and 19. Next is birth rate. This again looks at the rate of people who give birth. Specifically, per every 1,000 women. And the last columns is 1st trimester of Care. This looks at the percent of women who got medical care and support within the first 13 weeks of their pregnancy. 
 
 
 
+Intended Machine Learning Task: Regression
+So for this specific example the Machine Learning Task is Regression. I am considering the  the Birth Rate as the dependent variable. And using these rates, the primary objective is to determine based on location and other factors such as the percentages I mentioned above, the potential number of births.
 
-The intended machine learning task for each dataset (classification or regression).
+
+The indpendent variable is the ZIP code, LBW %, Preterm Birth Percentage, and 1st trimester of care %. The dependent variable in this machine learning regression task would be the Birth Rate. 
 
 The steps needed to clean and transform the data. Consider aspects like missing values, outliers, encoding categorical variables, standardizing or normalizing, etc.
 
-Identify the independent (predictors) and dependent (target) variables in each dataset.
 
 
