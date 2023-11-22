@@ -99,6 +99,11 @@ I had to do pip install  lime, xgboost, and shap.
 
 <img width="517" alt="Screen Shot 2023-11-22 at 2 24 49 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/beb04f93-92a6-4e11-8406-95c16ea0f71a">
 
+
+Using the class code I got this output:
+
+<img width="756" alt="Screen Shot 2023-11-22 at 2 23 05 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/60627c21-7b48-4bef-a4cd-58479d28e7f9">
+
 Error: This last part was confusing and I am unsure if this is the desired result. I will come back and re-evaluate after thanksgiving. 
 
 
