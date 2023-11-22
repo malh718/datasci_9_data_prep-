@@ -68,9 +68,9 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, r
 (X_train.shape, X_val.shape, X_test.shape)
 
 # Pkle the X_train for later use in explanation
-pickle.dump(X_train, open('WK9/code/model_dev/models/X_train_100k.sav', 'wb'))
+pickle.dump(X_train, open('model_dev/PROCESSEDDATA/cancer.sav', 'wb'))
 # Pkle X.columns for later use in explanation
-pickle.dump(X.columns, open('WK9/code/model_dev/models/X_columns_100k.sav', 'wb'))
+pickle.dump(X.columns, open('model_dev/PROCESSEDDATA/cancer2.sav', 'wb'))
 
 
 
