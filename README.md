@@ -41,6 +41,10 @@ No missing values
 We can confirm that there are no missing values as df_clean.shape shows the same number of rows and columns and indicates all information is present.
 
 
+<img width="315" alt="Screen Shot 2023-11-22 at 1 41 32 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/275f072d-072e-4942-bd89-52614e06bac5">
+
+Just double cheking that if there are any missing values they will be dropped. We know there arent any because I did .shape and got the same number of columns and rows we started off with. 
+
 
 <img width="470" alt="Screen Shot 2023-11-22 at 1 34 07 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/331281c8-8607-4694-b817-b95837e52ae1">
 
@@ -72,6 +76,7 @@ This drops the columnns that we do not need, and are not necessary.
 No missing values 
 
 
-<img width="315" alt="Screen Shot 2023-11-22 at 1 41 32 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/275f072d-072e-4942-bd89-52614e06bac5">
+## 4
+Right off the bat I ran into a couple errors.
 
-Just double cheking that if there are any missing values they will be dropped. We know there arent any because I did .shape and got the same number of columns and rows we started off with. 
+<img width="748" alt="Screen Shot 2023-11-22 at 1 58 08 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/824486cd-318e-425c-ba03-bb160da94459">
