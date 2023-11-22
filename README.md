@@ -80,3 +80,12 @@ No missing values
 Right off the bat I ran into a couple errors.
 
 <img width="748" alt="Screen Shot 2023-11-22 at 1 58 08 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/824486cd-318e-425c-ba03-bb160da94459">
+
+
+<img width="1140" alt="Screen Shot 2023-11-22 at 2 00 36 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/5eb88ecb-6a94-47e6-bbcb-69618fd58f77">
+
+Had to do pip install  lime, xgboost, and shap.
+
+
+
+
