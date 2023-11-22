@@ -102,7 +102,8 @@ I had to do pip install  lime, xgboost, and shap.
 
 Using the class code I got this output:
 
-<img width="756" alt="Screen Shot 2023-11-22 at 2 23 05 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/60627c21-7b48-4bef-a4cd-58479d28e7f9">
+<img width="835" alt="Screen Shot 2023-11-22 at 2 30 45 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/98957c76-019c-485f-8d4d-36c074b2b198">
+
 
 Error: This last part was confusing and I am unsure if this is the desired result. I will come back and re-evaluate after thanksgiving. 
 
