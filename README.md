@@ -38,7 +38,12 @@ No missing values
 
 <img width="690" alt="Screen Shot 2023-11-22 at 1 43 20 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/9b5bc399-8b7a-404b-8723-13c5d2a2beb8">
 
+We can confirm that there are no missing values as df_clean.shape shows the same number of rows and columns and indicates all information is present.
+
+
+
 <img width="470" alt="Screen Shot 2023-11-22 at 1 34 07 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/331281c8-8607-4694-b817-b95837e52ae1">
+
 This drops the columnns that we do not need, and are not necessary. 
 
 Brief Description of  Birth Statistics- Lake County, Illinois
