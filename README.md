@@ -28,7 +28,7 @@ Intended Machine Learning Task: Regression
 
 Machine Learning Regression is suitable in this dataset because the Dependent variables in this case which are  Lunc_bronc, Breast_can, Urinary_sy, Prostate_C, and All_cancer are all continuous. What this means is that the independent and dependent variables will be studied and using machine learning an algorithm can determine potential results or outcomes. In this case. Using the information that you are giving it, it can make predictions on what is to come. So in this case, we will try to determine the potential rates of cancer for the population present in Lake County, Illinois based on location and other information. 
 
-The indpendent variable in this case would be location.
+The indpendent variable in this case would be location (ZIP).
 The dependent variables are Colorectal cancer rate, breast cancer rate, Lung cancer rate, prostate cancer rate, and all cancer rate.
 
 Clean and Transform:
@@ -41,10 +41,20 @@ No missing values
 We can confirm that there are no missing values as df_clean.shape shows the same number of rows and columns and indicates all information is present.
 
 
+<img width="315" alt="Screen Shot 2023-11-22 at 1 41 32 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/275f072d-072e-4942-bd89-52614e06bac5">
+
+Just double cheking that if there are any missing values they will be dropped. We know there arent any because I did .shape and got the same number of columns and rows we started off with. 
+
 
 <img width="470" alt="Screen Shot 2023-11-22 at 1 34 07 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/331281c8-8607-4694-b817-b95837e52ae1">
 
 This drops the columnns that we do not need, and are not necessary. 
+
+
+**** additionally for both datasets I cleaned the column names. 
+
+<img width="622" alt="Screen Shot 2023-11-22 at 2 04 45 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/11d03f2d-4b4c-422d-9483-1a3c27f2479d">
+
 
 Brief Description of  Birth Statistics- Lake County, Illinois
 
@@ -72,6 +82,26 @@ This drops the columnns that we do not need, and are not necessary.
 No missing values 
 
 
-<img width="315" alt="Screen Shot 2023-11-22 at 1 41 32 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/275f072d-072e-4942-bd89-52614e06bac5">
+## 4
+Right off the bat, I ran into a couple errors.
 
-Just double cheking that if there are any missing values they will be dropped. We know there arent any because I did .shape and got the same number of columns and rows we started off with. 
+<img width="748" alt="Screen Shot 2023-11-22 at 1 58 08 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/824486cd-318e-425c-ba03-bb160da94459">
+
+
+<img width="1140" alt="Screen Shot 2023-11-22 at 2 00 36 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/5eb88ecb-6a94-47e6-bbcb-69618fd58f77">
+
+I had to do pip install  lime, xgboost, and shap.
+
+<img width="756" alt="Screen Shot 2023-11-22 at 2 23 05 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/eead3b59-beee-47d7-b474-97d9c64ca44d">
+
+<img width="523" alt="Screen Shot 2023-11-22 at 2 25 23 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/19c8a504-f2c9-4302-bbfb-fd04405031b1">
+
+
+<img width="517" alt="Screen Shot 2023-11-22 at 2 24 49 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/beb04f93-92a6-4e11-8406-95c16ea0f71a">
+
+Error: This last part was confusing and I am unsure if this is the desired result. I will come back and re-evaluate after thanksgiving. 
+
+
+
+
+
