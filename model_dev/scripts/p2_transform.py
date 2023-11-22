@@ -9,6 +9,8 @@ df_rpt_dist = pd.read_csv('model_dev/processed/raw/Birth_Statistics.csv')
 ## get column names
 df_rpt_dist.columns
 df_rpt_dist.shape
+## for cancer dataset
+df.columns 
 
 missing_values2 = df_rpt_dist.isnull().sum()
 missing_values2 
