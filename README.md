@@ -97,7 +97,6 @@ I had to do pip install  lime, xgboost, and shap.
 <img width="523" alt="Screen Shot 2023-11-22 at 2 25 23 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/19c8a504-f2c9-4302-bbfb-fd04405031b1">
 
 
-<img width="517" alt="Screen Shot 2023-11-22 at 2 24 49 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/beb04f93-92a6-4e11-8406-95c16ea0f71a">
 
 
 Using the class code I got this output:
@@ -105,7 +104,6 @@ Using the class code I got this output:
 <img width="835" alt="Screen Shot 2023-11-22 at 2 30 45 PM" src="https://github.com/malh718/datasci_9_data_prep-/assets/102617334/98957c76-019c-485f-8d4d-36c074b2b198">
 
 
-Error: This last part was confusing and I am unsure if this is the desired result. I will come back and re-evaluate after thanksgiving. 
 
 
 
